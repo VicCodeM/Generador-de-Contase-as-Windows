@@ -13,7 +13,7 @@ Simple generador de contraseñas echo en C# Visual Studio 2022
 
 ## Authors
 
-- [@VictorM82](https://www.github.com/VictorM82)
+- [@VicCodeM](https://www.github.com/VicCodeM)
 
 
 ## License
