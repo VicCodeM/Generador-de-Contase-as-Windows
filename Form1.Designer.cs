@@ -36,7 +36,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.btnCerrar = new System.Windows.Forms.Button();
             this.textBox2 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.bntCopy = new System.Windows.Forms.Button();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.checkBox2 = new System.Windows.Forms.CheckBox();
             this.checkBox3 = new System.Windows.Forms.CheckBox();
@@ -155,22 +155,22 @@
             this.textBox2.Text = "16";
             this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // button1
+            // bntCopy
             // 
-            this.button1.BackColor = System.Drawing.Color.Crimson;
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Crimson;
-            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(119)))), ((int)(((byte)(20)))), ((int)(((byte)(2)))));
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(548, 92);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(41, 27);
-            this.button1.TabIndex = 18;
-            this.button1.Text = "Copy";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.bntCopy.BackColor = System.Drawing.Color.Crimson;
+            this.bntCopy.FlatAppearance.BorderSize = 0;
+            this.bntCopy.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Crimson;
+            this.bntCopy.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(119)))), ((int)(((byte)(20)))), ((int)(((byte)(2)))));
+            this.bntCopy.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.bntCopy.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bntCopy.ForeColor = System.Drawing.Color.White;
+            this.bntCopy.Location = new System.Drawing.Point(548, 92);
+            this.bntCopy.Name = "bntCopy";
+            this.bntCopy.Size = new System.Drawing.Size(41, 27);
+            this.bntCopy.TabIndex = 18;
+            this.bntCopy.Text = "Copy";
+            this.bntCopy.UseVisualStyleBackColor = false;
+            this.bntCopy.Click += new System.EventHandler(this.button1_Click);
             // 
             // checkBox1
             // 
@@ -234,9 +234,9 @@
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.Font = new System.Drawing.Font("Calibri", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Location = new System.Drawing.Point(96, 186);
+            this.button3.Location = new System.Drawing.Point(50, 186);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 27);
+            this.button3.Size = new System.Drawing.Size(143, 27);
             this.button3.TabIndex = 24;
             this.button3.Text = "Borrar";
             this.button3.UseVisualStyleBackColor = false;
@@ -262,11 +262,11 @@
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button5.Font = new System.Drawing.Font("Calibri", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button5.ForeColor = System.Drawing.Color.White;
-            this.button5.Location = new System.Drawing.Point(515, 186);
+            this.button5.Location = new System.Drawing.Point(482, 186);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(74, 27);
+            this.button5.Size = new System.Drawing.Size(134, 27);
             this.button5.TabIndex = 26;
-            this.button5.Text = "Abrir txt";
+            this.button5.Text = "Abrir Generadas";
             this.button5.UseVisualStyleBackColor = false;
             this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
@@ -283,7 +283,7 @@
             this.Controls.Add(this.checkBox3);
             this.Controls.Add(this.checkBox2);
             this.Controls.Add(this.checkBox1);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.bntCopy);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.btnCerrar);
             this.Controls.Add(this.label2);
@@ -313,7 +313,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button btnCerrar;
         private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button bntCopy;
         private System.Windows.Forms.CheckBox checkBox1;
         private System.Windows.Forms.CheckBox checkBox2;
         private System.Windows.Forms.CheckBox checkBox3;
